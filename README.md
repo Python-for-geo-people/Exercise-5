@@ -7,8 +7,6 @@ Exercise 5: Analysing NOAA climate data
 3. Loop over all files by year, read data and calculate average temperatures for winter (DJF) and summer (JJA), append year and mean temperature to new data files (summer-avg-temps.csv, winter-avg-temps.csv)
 4. Save data files to GitHub for future use (could be a nice dataset to use for plotting. Could plot daily temperatures and seasonal averages with different symbols, possibly add a trendline)
 
-**Is this too much work for one exercise???**
-
 ## Notes
 - Add a hints page for the less confident coders
 - Add some optional challenges for the more experienced people

@@ -6,7 +6,7 @@ The data file [`816295.csv`](Data/816295.csv) comprises daily temperature measur
 Your task is to process this data to calculate average annual temperatures for the summer and winter in each year covered by the data.
 
 This may be a challenging exercise for some of you.
-If you are having trouble, you might want to check out the [hints](hints.md).
+If you are having trouble, you might want to check out the [hints for Exercise 5](https://github.com/Python-for-geo-people/Lesson-5-Reading-Writing/blob/master/Lesson/hints-ex5.md).
 
 ## Part 1 - Reading and dividing the data file
 Your first task is to read in the `816295.csv` data file and divide the data into separate data files for each year of data.

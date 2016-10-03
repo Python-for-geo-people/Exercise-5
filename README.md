@@ -2,7 +2,7 @@
 Exercise 5: Analysing NOAA climate data
 
 In this exercise you will be working with a climate data file from the [US National Oceanographic and Atmospheric Administration (NOAA) climate database](https://www.ncdc.noaa.gov/cdo-web/).
-The data file [`816295.csv`](Data/816295.csv) comprises daily temperature measurements from several stations in the vicinity of the town of Ann Arbor, Michigan in the US from 1 January 1926 to 31 December 2015.
+The data file [`816295.csv`](Data/816295.csv) comprises daily temperature measurements (in Fahrenheit) from several stations in the vicinity of the town of Ann Arbor, Michigan in the US from 1 January 1926 to 31 December 2015.
 Your task is to process this data to calculate average annual temperatures for the summer and winter in each year covered by the data.
 
 This may be a challenging exercise for some of you.
@@ -15,16 +15,25 @@ In order to separate each file by year, you will need to check the date of the o
 You should end up with one data file for each year of data.
 
 ## Part 2 - Calculating annual summer and winter temperatures
-After creating the annual data files above, 
+After creating the annual data files above, your next task is to calculate seasonal average temperatures for each year.
+This should be done by reading in each year's data file and calculating a winter average (combining months January and February) and a summer average (combining months July and August).
+Thus for each year, your script should calculate two average temperature values.
+These seasonal average temperature values should be appended to corresponding data files (`summer-avg-temps.csv` and `winter-avg-temps.csv`) along with the year in which the average was calculated.
+Each line in the file should thus read `<year>,<avg temperature>`.
+You are not required to include a header.
 
-1. Read in data file (provided from NOAA climate database)
-2. Split into separate files by year (e.g., AA-1926.csv, AA-1927.csv)
-3. Loop over all files by year, read data and calculate average temperatures for winter (DJF) and summer (JJA), append year and mean temperature to new data files (summer-avg-temps.csv, winter-avg-temps.csv)
-4. Save data files to GitHub for future use (could be a nice dataset to use for plotting. Could plot daily temperatures and seasonal averages with different symbols, possibly add a trendline)
+## Part 3 - Saving your seasonal average files to GitHub
+Lastly, you should save your seasonal average files (`summer-avg-temps.csv` and `winter-avg-temps.csv`) to your GitHub repository for this exercise.
+Our plan is to return to using these data files when we learn how to create data plots in Python using [matplotlib](http://matplotlib.org/).
+You do not need to save the `AA-####.csv` files to GitHub.
 
-## Notes
-- Add a hints page for the less confident coders
-- Add some optional challenges for the more experienced people
-  - Using `glob`
-  - Use functions for various parts of the code
-  - Other things?
+## Questions
+
+## Optional tasks for advanced users
+If you're interested in a challenge, you can try to do the following in your Python script for this week's exercise.
+
+- Use the `glob` module to create the list of files to process in Part 2.
+- Write your code in a modular format, creating functions for any parts of the code that are used repeatedly.
+- Read the data files line by line, rather than all at once.
+
+# Answers

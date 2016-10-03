@@ -1,11 +1,9 @@
-# Exercise-5
-Exercise 5: Analysing NOAA climate data
-
+# Exercise 5: Analysing NOAA climate data
 In this exercise you will be working with a climate data file from the [US National Oceanographic and Atmospheric Administration (NOAA) climate database](https://www.ncdc.noaa.gov/cdo-web/).
 The data file [`816295.csv`](Data/816295.csv) comprises daily temperature measurements (in Fahrenheit) from several stations in the vicinity of the town of Ann Arbor, Michigan in the US from 1 January 1926 to 31 December 2015.
 Your task is to process this data to calculate average annual temperatures for the summer and winter in each year covered by the data.
 
-This may be a challenging exercise for some of you.
+This may is a challenging exercise.
 If you are having trouble, you might want to check out the [hints for Exercise 5](https://github.com/Python-for-geo-people/Lesson-5-Reading-Writing/blob/master/Lesson/hints-ex5.md).
 
 ## Part 1 - Reading and dividing the data file
@@ -44,9 +42,11 @@ If you're interested in a challenge, you can try to do the following in your Pyt
 - Read the data files line by line, rather than all at once.
 
 ## Questions
-1. 
-2. 
-3. 
-4. 
+1. What was the largest challenge you faced with creating the separate data files for each year of temperature data?
+2. What was the most difficult aspect of calculating the average annual temperatures?
+3. Describe an instance in which you might need to read a data file and extract some data in for your studies.
+Would you perform such a task using Python or some other way?
+4. In your opinion, was this exercise too difficult, too easy, or about right?
+5. Do you have any suggestions for how to improve this exercise?
 
 # Answers

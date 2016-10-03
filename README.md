@@ -27,13 +27,17 @@ Lastly, you should save your seasonal average files (`summer-avg-temps.csv` and 
 Our plan is to return to using these data files when we learn how to create data plots in Python using [matplotlib](http://matplotlib.org/).
 You do not need to save the `AA-####.csv` files to GitHub.
 
-## Questions
-
 ## Optional tasks for advanced users
 If you're interested in a challenge, you can try to do the following in your Python script for this week's exercise.
 
 - Use the `glob` module to create the list of files to process in Part 2.
 - Write your code in a modular format, creating functions for any parts of the code that are used repeatedly.
 - Read the data files line by line, rather than all at once.
+
+## Questions
+1. 
+2. 
+3. 
+4. 
 
 # Answers

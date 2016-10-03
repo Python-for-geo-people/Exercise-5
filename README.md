@@ -13,6 +13,15 @@ Your first task is to read in the `816295.csv` data file and divide the data int
 The data file names should follow the format `AA-####.csv`, replacing `####` with the year of the data (i.e., `AA-1926.csv`).
 In order to separate each file by year, you will need to check the date of the observation in the data file and use only the year.
 You should end up with one data file for each year of data.
+To help you with handling the data file, the first 5 lines of the file are displayed below.
+
+```
+STATION,STATION_NAME,ELEVATION,LATITUDE,LONGITUDE,DATE,TOBS
+GHCND:USC00200230,ANN ARBOR UNIVERSITY OF MI MI US,282.2,42.28333,-83.73333,19260101,34
+GHCND:USC00200230,ANN ARBOR UNIVERSITY OF MI MI US,282.2,42.28333,-83.73333,19260102,34
+GHCND:USC00200230,ANN ARBOR UNIVERSITY OF MI MI US,282.2,42.28333,-83.73333,19260103,33
+GHCND:USC00200230,ANN ARBOR UNIVERSITY OF MI MI US,282.2,42.28333,-83.73333,19260104,39
+```
 
 ## Part 2 - Calculating annual summer and winter temperatures
 After creating the annual data files above, your next task is to calculate seasonal average temperatures for each year.
